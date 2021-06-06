@@ -1,0 +1,79 @@
+.spainone {
+    background-image: url(/img/spain1.png);
+}
+
+.spainsecond {
+    background-image: url(/img/spain2.png);
+}
+
+.spain {
+    height: 100vh;
+    width: auto;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    font-family: "Aleo";
+    display: flex;
+    flex-direction: row;
+
+    .spain__firstleft {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+
+    }
+
+    .spain__secondleft {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+
+    }
+
+    .spain__firstright {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .spain__secondright {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+
+    .spain__infobox {
+        width: 75%;
+        padding: 30px;
+        background-color: rgba(0, 0, 0, 0.76);
+
+        .spain__h2 {
+            font-size: 21px;
+            font-weight: bold;
+        }
+
+        .spain__h1 {
+            font-size: 22px;
+            margin: 40px 0;
+
+        }
+
+        .spain__button {
+            font-size: 20px;
+            padding: 10px;
+            background-color: #496BFE;
+            color: white;
+            margin-top: 40px;
+        }
+    }
+
+
+}

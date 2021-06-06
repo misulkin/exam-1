@@ -1,0 +1,49 @@
+.choose {
+    height: 100vh;
+    width: auto;
+    background-image: url(/img/choosebg.png);
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    font-family: "Aleo";
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    .choose__text {
+        width: 40%;
+
+        .choose__h1 {
+            font-size: 40px;
+            margin: 10% 0;
+        }
+
+        .choose__discr {
+            font-size: 20px;
+            font-weight: 500;
+            margin: 20px 0;
+        }
+
+        .choose__button {
+            padding: 20px;
+            color: white;
+            background-color: #5474FD;
+        }
+    }
+
+    .choose__imgblock {
+        width: 40%;
+
+        .choose__imgleft {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        .choose__imgright {
+            text-align: right;
+            padding-left: 10%;
+        }
+    }
+
+}

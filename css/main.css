@@ -1,0 +1,375 @@
+.header {
+  height: 100vh;
+  width: auto;
+  background-image: url(/img/backgroundhead.png);
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  font-family: "Aleo";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .header__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .header__main .header__h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 15%;
+}
+
+.header .header__main .header__text {
+  font-size: 21px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  font-weight: lighter;
+}
+
+.header .header__main .header__form {
+  margin: 20px 0;
+}
+
+.header .header__main .header__form input {
+  width: 300px;
+  height: 42px;
+  background: #F9F0DA;
+  padding-left: 15px;
+  border: none;
+  outline: none;
+  border-radius: 0px;
+  text-align: center;
+  padding-right: 20px;
+}
+
+.header .header__main .header__form button {
+  height: 30px;
+  width: 70px;
+  margin-left: -5px;
+  color: white;
+  background: #4254f1;
+  cursor: pointer;
+  outline: none;
+  border: #F9F0DA 6px solid;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+.header .header__main .object {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.header .navigation {
+  background-color: #5474FD;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 20px;
+}
+
+.header .navigation .navigation__logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.header .navigation .navigation__linklist {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.header .navigation .navigation__linklist .navigation__object {
+  padding: 5px;
+}
+
+.header .navigation .navigation__linklist .navigation__object:hover {
+  background-color: #2241ce;
+  border-radius: 5px;
+}
+
+.choose {
+  height: 100vh;
+  width: auto;
+  background-image: url(/img/choosebg.png);
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  font-family: "Aleo";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.choose .choose__text {
+  width: 40%;
+}
+
+.choose .choose__text .choose__h1 {
+  font-size: 40px;
+  margin: 10% 0;
+}
+
+.choose .choose__text .choose__discr {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 20px 0;
+}
+
+.choose .choose__text .choose__button {
+  padding: 20px;
+  color: white;
+  background-color: #5474FD;
+}
+
+.choose .choose__imgblock {
+  width: 40%;
+}
+
+.choose .choose__imgblock .choose__imgleft {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.choose .choose__imgblock .choose__imgright {
+  text-align: right;
+  padding-left: 10%;
+}
+
+.search {
+  color: white;
+  font-size: 27px;
+  background-color: #333333;
+}
+
+.search .search__place {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 4% 0;
+}
+
+.search .search__place p {
+  margin-top: 10px;
+}
+
+.spainone {
+  background-image: url(/img/spain1.png);
+}
+
+.spainsecond {
+  background-image: url(/img/spain2.png);
+}
+
+.spain {
+  height: 100vh;
+  width: auto;
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  font-family: "Aleo";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.spain .spain__firstleft {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.spain .spain__secondleft {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.spain .spain__firstright {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.spain .spain__secondright {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.spain .spain__infobox {
+  width: 75%;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.76);
+}
+
+.spain .spain__infobox .spain__h2 {
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.spain .spain__infobox .spain__h1 {
+  font-size: 22px;
+  margin: 40px 0;
+}
+
+.spain .spain__infobox .spain__button {
+  font-size: 20px;
+  padding: 10px;
+  background-color: #496BFE;
+  color: white;
+  margin-top: 40px;
+}
+
+.review {
+  height: 100vh;
+  width: auto;
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  font-family: "Aleo";
+  background-image: url("/img/reviewbg.png");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.review .review__h1 {
+  margin: 7% 0;
+  font-size: 40px;
+}
+
+.review .review__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 70%;
+  min-width: 300px;
+}
+
+.review .review__block .review__text {
+  padding: 20px;
+  min-width: 260px;
+  background-color: #333333;
+}
+
+.review .review__block .review__text .review__h6 {
+  font-size: 24px;
+  font-weight: lighter;
+  margin: 10px 0;
+}
+
+.review .review__block .review__text p {
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.review .review__block .review__text p::before {
+  content: open-quote;
+  color: #5474FD;
+  font-size: 40px;
+  font-weight: bolder;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,92 @@
+.header {
+    height: 100vh;
+    width: auto;
+    background-image: url(/img/backgroundhead.png);
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    font-family: "Aleo";
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .header__main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .header__h1 {
+            font-size: 40px;
+            font-weight: bold;
+            margin-top: 15%;
+        }
+
+        .header__text {
+            font-size: 21px;
+            margin-top: 5px;
+            margin-bottom: 30px;
+            font-weight: lighter;
+        }
+
+        .header__form {
+            margin: 20px 0;
+
+            input {
+                width: 300px;
+                height: 42px;
+                background: #F9F0DA;
+                padding-left: 15px;
+                border: none;
+                outline: none;
+                border-radius: 0px;
+                text-align: center;
+                padding-right: 20px;
+            }
+
+            button {
+                height: 30px;
+                width: 70px;
+                margin-left: -5px;
+                color: white;
+                background: #4254f1;
+                cursor: pointer;
+                outline: none;
+                border: #F9F0DA 6px solid;
+                box-sizing: content-box;
+            }
+        }
+
+        .object {
+            transform: rotate(-90deg);
+            transform-origin: center center;
+        }
+
+    }
+
+    .navigation {
+        background-color: #5474FD;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 20px;
+
+        .navigation__logo {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .navigation__linklist {
+            display: flex;
+            flex-direction: row;
+
+            .navigation__object {
+                padding: 5px;
+            }
+
+            .navigation__object:hover {
+                background-color: #2241ce;
+                border-radius: 5px;
+            }
+        }
+    }
+}
