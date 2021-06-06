@@ -1,7 +1,7 @@
 .header {
   height: 100vh;
   width: auto;
-  background-image: url(/img/backgroundhead.png);
+  background-image: url("/img/backgroundhead.png");
   background-size: cover;
   background-position: center center;
   color: white;
@@ -157,7 +157,7 @@
 .choose {
   height: 100vh;
   width: auto;
-  background-image: url(/img/choosebg.png);
+  background-image: url("/img/choosebg.png");
   background-size: cover;
   background-position: center center;
   color: white;
@@ -239,11 +239,11 @@
 }
 
 .spainone {
-  background-image: url(/img/spain1.png);
+  background-image: url("/img/spain1.png");
 }
 
 .spainsecond {
-  background-image: url(/img/spain2.png);
+  background-image: url("/img/spain2.png");
 }
 
 .spain {
