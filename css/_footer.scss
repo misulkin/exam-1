@@ -1,0 +1,36 @@
+.footer {
+    color: white;
+    background-color: #232323;
+    text-align: center;
+    padding-top: 3%;
+
+    .footer__block {
+        margin: 0 auto;
+        padding: 30px;
+
+        .footer__logo {
+            font-size: 30px;
+            font-family: "Aleo";
+            font-weight: bold;
+            margin: 10px;
+        }
+
+        p {
+            font-size: 20px;
+            font-family: "Aleo";
+            font-weight: lighter;
+            margin: 15px
+        }
+
+        .footer__icons {
+            letter-spacing: 10px;
+            font-size: 22px;
+            text-align: center;
+
+            span:hover {
+                color: cadetblue;
+            }
+        }
+    }
+
+}

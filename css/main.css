@@ -118,6 +118,42 @@
   border-radius: 5px;
 }
 
+.footer {
+  color: white;
+  background-color: #232323;
+  text-align: center;
+  padding-top: 3%;
+}
+
+.footer .footer__block {
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.footer .footer__block .footer__logo {
+  font-size: 30px;
+  font-family: "Aleo";
+  font-weight: bold;
+  margin: 10px;
+}
+
+.footer .footer__block p {
+  font-size: 20px;
+  font-family: "Aleo";
+  font-weight: lighter;
+  margin: 15px;
+}
+
+.footer .footer__block .footer__icons {
+  letter-spacing: 10px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.footer .footer__block .footer__icons span:hover {
+  color: cadetblue;
+}
+
 .choose {
   height: 100vh;
   width: auto;
